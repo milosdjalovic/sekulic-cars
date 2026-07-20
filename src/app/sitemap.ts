@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { getAvailableVehicles } from "@/lib/vehicles";
-import { siteConfig } from "@/lib/utils";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sekulic-cars.rs";

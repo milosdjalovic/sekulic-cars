@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getAllVehicles } from "@/lib/vehicles";
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
-import { formatPrice, getPrimaryImage, getVehicleTitle } from "@/lib/utils";
+import { formatPrice, getPrimaryImage } from "@/lib/utils";
 import AdminHeader from "@/components/admin/AdminHeader";
 import Image from "next/image";
 
@@ -62,7 +62,6 @@ export default async function AdminDashboard() {
               <tbody className="divide-y divide-border">
                 {vehicles.map((vehicle) => {
                   const imageUrl = getPrimaryImage(vehicle);
-                  const title = getVehicleTitle(vehicle);
 
                   return (
                     <tr key={vehicle.id} className="group">
