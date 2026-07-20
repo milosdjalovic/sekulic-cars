@@ -13,7 +13,7 @@ export default function Footer() {
               Sekulić <span className="text-accent">Cars</span>
             </h3>
             <p className="mt-3 text-sm leading-relaxed text-muted">
-              Pažljivo odabrana vozila sa fokusom na kvalitet, transparentnost i pouzdanu uslugu.
+              Prodaja vozila sa fokusom na jasnu ponudu i profesionalnu uslugu.
             </p>
           </div>
 

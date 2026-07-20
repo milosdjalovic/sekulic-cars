@@ -30,9 +30,9 @@ export default async function HomePage() {
               <span className="text-accent">iskrena usluga</span>
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted">
-              Sekulić Cars je mesto gde možete pronaći pažljivo odabrana vozila.
-              Verujemo u transparentnost, kvalitet i ličan pristup svakom kupcu.
-              Svako vozilo prolazi detaljnu proveru pre nego što uđe u našu ponudu.
+              Sekulić Cars nudi preglednu ponudu vozila.
+              Trudimo se da svaki oglas bude jasan i razumljiv, uz ličan pristup
+              svakom zainteresovanom kupcu.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button href="/ponuda" size="lg">
@@ -55,8 +55,8 @@ export default async function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               }
-              title="Proverena vozila"
-              description="Svako vozilo pažljivo pregledamo pre objavljivanja u ponudi."
+              title="Jasna ponuda"
+              description="Svako vozilo prikazano sa osnovnim podacima, fotografijama i cenom."
             />
             <ValueCard
               icon={
@@ -65,7 +65,7 @@ export default async function HomePage() {
                 </svg>
               }
               title="Transparentna komunikacija"
-              description="Jasne informacije o svakom vozilu — bez skrivenih detalja."
+              description="Tu smo da odgovorimo na pitanja i pružimo informacije o vozilu koje vas zanima."
             />
             <ValueCard
               icon={

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["automobili", "polovni automobili", "prodaja vozila", "Sekulić Cars", "Srbija"],
+  keywords: ["automobili", "prodaja vozila", "Sekulić Cars", "Srbija", "Crna Gora"],
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,

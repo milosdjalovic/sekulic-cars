@@ -41,7 +41,7 @@ export function getPrimaryImage(vehicle: { vehicle_images?: { url: string; is_pr
 
 export const siteConfig = {
   name: "Sekulić Cars",
-  description: "Kvalitetna polovna i nova vozila. Poverenje, transparentnost i pažljivo odabrana ponuda.",
+  description: "Vozila u ponudi. Profesionalna usluga i jasna komunikacija.",
   phone: process.env.NEXT_PUBLIC_PHONE || "+38268080898",
   viber: process.env.NEXT_PUBLIC_VIBER || "+38268080898",
   instagram: process.env.NEXT_PUBLIC_INSTAGRAM || "https://www.instagram.com/sekulic__cars/",
